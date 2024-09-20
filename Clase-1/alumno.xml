@@ -1,0 +1,14 @@
+<alumnos>
+    <alumno>
+        <nombre>Hernán Coronel</nombre>
+        <dni>12345678</dni>
+        <direccion>Calle Falsa 123</direccion>
+        <mail>hernancoronel123@falso</mail>
+    </alumno>
+    <alumno>
+        <nombre>Martín Coronel</nombre>
+        <dni>12345678</dni>
+        <direccion>Calle Falsa 123</direccion>
+        <mail>martincoronel123@falso</mail>
+    </alumno>
+</alumnos>
