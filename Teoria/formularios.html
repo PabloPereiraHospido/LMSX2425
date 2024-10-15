@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <form action="#" method="dialog">
+        <div>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+        </div>
+        <br>
+        <div>
+            <label for="apellido">Apellido: </label>
+            <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+        </div>
+        <br>
+        <div>
+            <label for="contrasenia">Contraseña: </label>
+            <input type="password" name="contrasenia" id="contrasenia" required maxlength="10" minlength="5">
+        </div>
+        <br>
+        <div>
+            <label for="email">Correo: </label>
+            <input type="email" name="email" id="email" required placeholder="usuario@dominio.com">
+        </div>
+        <br>
+        <div>
+            <label for="tel">Telefono: </label>
+            <input type="tel" name="tel" id="tel" required placeholder="usuario@dominio.com">
+        </div>
+        <br>
+        <div>
+            <label for="date">Fecha: </label>
+            <input type="date" name="date" id="date" required placeholder="usuario@dominio.com">
+        </div>
+        <br>
+        <div>
+            <label for="cantidad">Cantidad: </label>
+            <input type="number" name="cantidad" step="5" id="cantidad" value="0" min="0">
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="genero">Género: </label><br>
+            <input type="radio" name="genero" value="F" id="m" placeholder="Femenino">
+            <label for="m">Femenino</label>
+            <input type="radio" name="genero" id="f" value="M" placeholder="Masculino">
+            <label for="f">Masculino</label>
+            <input type="radio" name="genero" id="x" value="X" placeholder="Masculino" checked>
+            <label for="x">Otro</label>
+        </div>
+        <br>
+        <br>
+        <div>
+            <select name="pago" id="pago">
+                <option selected disabled>Seleccione</option>
+                <option value="visa">Visa</option>
+                <option value="mastercard">Mastercard</option>
+                <option value="tregalo">T.Regalo</option>
+                <option value="Tbancaria">Transferencia Bancaria</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="reset">
+            <input type="submit">
+        </div>
+    </form>
+</body>
+
+</html>
