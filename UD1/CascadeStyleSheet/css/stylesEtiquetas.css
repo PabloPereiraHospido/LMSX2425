@@ -1,0 +1,19 @@
+
+/* SELETORES DE ETIQUETAS */
+a{
+    background-color: firebrick;
+    color: white;
+}
+
+li a {
+    background-color: darkgreen;
+}
+
+li span{
+    background-color: white;
+    color: darkcyan;
+}
+
+
+/* SELECTORES DE CLASE */
+

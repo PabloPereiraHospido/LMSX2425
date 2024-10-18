@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+#caja {
+    border: 3px solid;
+}
+
+#caja>p {
+    /* > hijos directos */
+    background-color: beige;
+}
+
+#caja~p {
+    /* ~ es para hermanos */
+    background-color: aqua;
+}
+
+#caja+p {
+    /* ~ es para hermano  adjacente*/
+    background-color: brown;
+}

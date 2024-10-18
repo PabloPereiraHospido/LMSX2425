@@ -1,0 +1,11 @@
+.g1 {
+    background-color: antiquewhite;
+}
+.g2{
+    background-color: green;
+}
+
+p.g2{
+    letter-spacing: 1rem;
+    color: white;
+}
