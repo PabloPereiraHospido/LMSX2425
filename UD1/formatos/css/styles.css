@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@font-face{
+    font-family: dam;
+    src: url("./fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf");
+}
+h2{
+    font-family: dam;
+}
+p{
+    font-family: "Cedarville Cursive", "lucida console", "courier new";
+    font-size: 1.2em;
+    font-weight: 400;
+    font-style: italic;
+}

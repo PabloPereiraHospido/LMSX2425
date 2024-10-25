@@ -1,0 +1,12 @@
+ p{/*
+    border-width: 15px;
+    border-color: cyan; */
+    border-radius: 15px;
+    border: 15px groove cyan
+}
+h1{
+    border-top:5px dotted darkcyan ;
+    border-left:5px dashed darkcyan ;
+    border-right:5px outset darkcyan ;
+    border-bottom:15px double darkcyan ;
+}

@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    border: 2px solid green;
+}
+
+.caja {
+    border: 5px solid;
+    height: 200px;
+    width: 200px;
+    font-size: 22px;
+}
+
+#caja1 {
+    background-color: cyan;
+    margin: 0 auto;
+}
+
+#caja2 {
+    margin-top: 40px;
+    background-color: lightcoral;
+}
+
+#bordes {
+    border: 2px solid;
+    width: 200px;
+    margin: auto;
+    box-shadow: 3px 3px 8px black;
+    margin-bottom: 3px;
+}
+
+#bordes>* {
+    border: 1px solid;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    background-color: gray;
+}
+
+p {
+    text-align: justify;
+    background-color: darkgrey;
+    padding: 0 5px;
+}
+
+/*
+4 valores: T R B L
+3 valores: T L/R B
+2 valores: T/B L/R
+1 valor:   T/R/L/B
+*/

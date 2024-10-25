@@ -1,0 +1,19 @@
+Tarefa 1. Elegir los selectores apropiados. Establecer los siguientes estilos:
+
+Enlaces visitados: texto en verde.
+Enlace activo: texto en rojo.
+Enlaces no visitados: texto en naranja.
+Enlace sobre el que el usuario coloca el puntero del raton: fondo en verde.
+Primera letra de todas las divisiones: texto en rojo y tamaño de letra 20px.
+Lineas impares de las tablas: fondo de color gris.
+Parrafos de la pagina y elementos de la clase "destacada" con fondo anaranjado.
+Parrafos de la pagina y elementos strong de la clase "especial" con texto de color azul.
+Cabeceras de nivel uno de la pagina con fondo verde y letra de color blanca.
+Parrafos de la pagina y elemento identificado como "negriña" con fondo negro y letra blanca.
+Cabeceras de niveles 2 y 3 que tengan como clase "cabe" con fondo azul y letra negra.
+
+
+
+
+
+
