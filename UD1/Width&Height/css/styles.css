@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.caja1 {
+    border: 2px solid;
+    background-color: aquamarine;
+    padding: 15px;
+    width: 50%;
+    display: inline-block;
+}
+
+.caja2 {
+    border: 2px solid;
+    background-color: burlywood;
+    padding: 15px;
+    width: 50%;
+    min-height: 20%;
+    height: 40%;
+    max-height: 60%;
+    display: inline-block;
+}

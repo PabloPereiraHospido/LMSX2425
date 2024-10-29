@@ -1,0 +1,35 @@
+#caja1{
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
+
+#hijoCaja1{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#caja2 {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    position: sticky;
+    top: 0px;
+    right: 50px;
+}
+
+#hijoCaja2 {
+    width: 100px;
+    height: 100px;
+    background-color: lightgoldenrodyellow;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
