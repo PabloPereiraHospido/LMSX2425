@@ -1,0 +1,45 @@
+.desplegable:hover {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.desplegable button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 23px;
+}
+
+.contenido {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.contenido a{
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+.contenido h2 {
+    color: #333;
+    padding: 10px 20px;
+    margin: 0;
+    border-bottom: 1px solid #ccc;
+    text-decoration: none;
+}
+
+.contenido h2:hover {
+    background-color: #5bc05e;
+    color: white;
+}
+
+.desplegable:hover .contenido {
+    display: block;
+}

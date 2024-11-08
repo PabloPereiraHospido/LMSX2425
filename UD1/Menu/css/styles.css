@@ -1,0 +1,90 @@
+/*estilos para ../index.html*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+h1 {
+    font-size: 34px;
+}
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+/*nav ul li verde al clickear*/
+nav ul li a.active {
+    background-color: #4CAF50;
+}
+
+main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+main ul li {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 23%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main ul li a {
+    display: block;
+    color: #333;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+main ul li p {
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+main ul li img {
+    padding: 10px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
