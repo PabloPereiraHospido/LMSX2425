@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Edu;
+    src: url("../assets/fonts/EduAUVICWANTPre-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Geist;
+    src: url("../assets/fonts/Geist-VariableFont_wght.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,51 +15,87 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
     background-color: #f2f2f2;
+    color: #eee;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Edu, sans-serif;
+    font-weight: 700;
+}
+
+a {
+    color: #eee;
+    text-decoration: none;
+}
+
+#logo {
+    width: 100px;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+
+.texto {
+    font-family: Geist, sans-serif;
+    font-weight: 400;
 }
 
 h1 {
     text-align: center;
     font-size: 48px;
     margin: 20px;
-    ;
+}
+
+h2 {
+    text-align: left;
+    font-size: 36px;
+    margin: 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+    background: linear-gradient(to right, #333 0%, transparent 20%);
+}
+
+body>div {
+    background-color: rgb(102, 38, 102);
 }
 
 header {
     background-color: #333;
-    color: #fff;
     padding: 10px 0;
     text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
+
 nav {
     text-align: right;
     padding-right: 40px;
-    height: 60px;
+    height: 40px;
+    background-color: #444;
 }
 
-header nav ul {
+#navMenu {
     list-style: none;
-    margin-bottom: 10px;
-    height: 100%;
 }
 
-header nav ul li {
+.menuItem {
     display: inline-block;
     margin: 0 10px;
+    padding: 0 12px;
+    height: 40px;
+    line-height: 40px;
 }
-header nav ul li a{
-    padding: 5px 10px;
-    height: 60px;
-    line-height: 60px;
-}
-header nav ul li a:hover{
-    background-color: #444;
-    color: white;
+
+.menuItem:hover {
+    background-color: #555;
 }
 
 a {
-    color: black;
     text-decoration: none;
 }
 
@@ -67,8 +113,68 @@ main {
     text-align: center;
 }
 
-#galeria ul li {
+.caja {
+    background-color: rgb(93, 60, 93);
     list-style: none;
     display: inline-block;
     margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 10px 5px;
+    box-shadow: 3px 3px 5px #888;
+}
+
+.caja:nth-child(odd):hover {
+    box-shadow: 6px 6px 7px #dd0505;
+}
+
+.caja:nth-child(even):hover {
+    box-shadow: 6px 6px 7px #1010c1;
+}
+
+.caja img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.caja h3,
+.caja p {
+    text-align: left;
+    padding-left: 10px;
+}
+
+
+form {
+    background-color: rgb(93, 60, 93);
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 400px;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 4px 4px 5px black;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(191, 65, 191);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(255, 90, 255);
 }
