@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-areas:
+        'Manolo . Isabel'
+        'Fernando María .';
+        column-gap: 1vw;
+}
+
+.clase {
+    border: 1px solid;
+    padding: 1vh 1vw;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px;
+}
+
+#area1 {
+    grid-area: Manolo;
+}
+
+#area2 {
+    grid-area: Isabel;
+}
+
+#area3 {
+    grid-area: Fernando;
+}
+
+#area4 {
+    grid-area: María;
+}
