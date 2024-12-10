@@ -1,0 +1,172 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    color: white;
+}
+
+h1 {
+    background-color: #6F89DD;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    list-style-type: none;
+    background-color: #4B67BB;
+}
+
+nav a {
+    width: 100px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.active {
+    background-color: #6F89DD;
+}
+
+#mainIndex {
+    margin: 20px 0 15px;
+    display: grid;
+    grid-template-columns: 1fr 30% 1fr 30%;
+    grid-template-rows: 200px 80px;
+    grid-template-areas:
+        'aside1 sec1 aside2 sec2'
+        'art1 art1 art1 art1';
+    column-gap: 8px;
+    row-gap: 12px;
+}
+
+aside,
+section,
+article,
+form {
+    border-radius: 12px;
+    box-shadow: 5px 10px 0px #000000;
+    padding: 10px;
+}
+
+aside {
+    background-color: #EE1B3E;
+}
+
+section {
+    background-color: #3347CC;
+}
+
+article {
+    background-color: #49B507;
+}
+
+#aside1 {
+    grid-area: aside1;
+}
+
+#aside2 {
+    grid-area: aside2;
+}
+
+#sec1 {
+    grid-area: sec1;
+}
+
+#sec2 {
+    grid-area: sec2;
+}
+
+#art1 {
+    grid-area: art1;
+}
+
+footer {
+    height: 60px;
+    text-align: right;
+    padding-right: 15px;
+    line-height: 60px;
+    background-color: #5E6D98;
+}
+
+/*  tablet  */
+@media screen and (max-width:749px) {
+    #mainIndex {
+        grid-template-rows: initial;
+        grid-template-areas:
+            'aside1 sec1 aside2'
+            'aside1 sec2 aside2'
+            'art1 art1 art1';
+        grid-template-columns: 1fr 45% 1fr;
+    }
+}
+
+/* smartphone   */
+@media screen and (max-width:649px) {
+    nav {
+        flex-direction: column;
+    }
+
+    #mainIndex {
+        grid-template-rows: initial;
+        grid-template-areas:
+            'aside1 sec1'
+            'aside2 sec2'
+            'art1 art1';
+        grid-template-columns: initial;
+    }
+}
+
+#mainProductos {
+    background: linear-gradient(to right, #06EEEF, #031048);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#mainProductos table{    
+    border: 2px solid black;
+}
+
+#mainProductos table * {
+    border: 2px solid black;
+}
+
+#mainProductos h2{
+    font-weight: normal;
+}
+#mainContacto h2{
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+
+#mainContacto {
+    background: linear-gradient(to right, #053C3C, #BCE20C);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mainContacto form {
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    background-color: #C4C5F1;
+    width: min-content;
+    padding: 20px 30px;
+    margin: 50px;
+}
+
+#mainContacto form #enviar{
+    width: min-content;
+}
