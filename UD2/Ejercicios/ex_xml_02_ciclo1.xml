@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ciclos familia="IFC" tipo="GS">
+    <ciclo abreviatura="ASIR">
+        Administración de sistemas informáticos en redes
+    </ciclo>
+    <ciclo abreviatura="DAM">
+        Desenvolvemento de aplicacións multiplataforma
+    </ciclo>
+</ciclos>
