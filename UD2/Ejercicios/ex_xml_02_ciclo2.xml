@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ciclos>
+    <ciclo abreviatura="ASIR" nombre="Administración de sistemas informáticos en redes">
+        <familia>IFC</familia>
+        <tipo>GS</tipo>
+        <curso nombre="1º">
+            <modulo>Fundamentos de hardware</modulo>
+            <modulo>Implantación de sistemas operativos</modulo>
+            <modulo> Inglés profesional </modulo>
+            <modulo> Itinerario persoal para a empregabilidade I </modulo>
+            <modulo> Linguaxes de marcas e sistemas de xestión de información </modulo>
+            <modulo>Planificación e administración de redes </modulo>
+            <modulo>Sustentabilidade aplicada ao sistema produtivo </modulo>
+            <modulo>Xestión de bases de datos </modulo>
+        </curso>
+        <curso nombre="2º">
+            <modulo>Administración de sistemas operativos </modulo>
+            <modulo> Administración de sistemas xestores de bases de datos </modulo>
+            <modulo>Empresa e iniciativa emprendedora </modulo>
+            <modulo>Formación en centros de traballo </modulo>
+            <modulo>Implantación de aplicacións web </modulo>
+            <modulo>Proxecto de administración de sistemas informáticos en rede </modulo>
+            <modulo>Seguridade e alta dispoñibilidade </modulo>
+            <modulo>Servizos de rede e internet </modulo>
+        </curso>
+    </ciclo>
+    <ciclo abreviatura="DAM" nombre="Desenvolvemento de aplicacións multiplataforma">
+        <familia>IFC</familia>
+        <tipo>GS</tipo>
+        <curso nombre="1º">
+            <modulo>Bases de datos </modulo>
+            <modulo>Contornos de desenvolvemento </modulo>
+            <modulo>Inglés profesional </modulo>
+            <modulo>Itinerario persoal para a empregabilidade I </modulo>
+            <modulo>Linguaxes de marcas e sistemas de xestión de información </modulo>
+            <modulo>Programación</modulo>
+            <modulo>Sistemas informáticos </modulo>
+            <modulo>Sustentabilidade aplicada ao sistema produtivo </modulo>
+        </curso>
+        <curso nombre="2º">
+            <modulo>Acceso a datos </modulo>
+            <modulo>Desenvolvemento de interfaces </modulo>
+            <modulo>Empresa e iniciativa emprendedora </modulo>
+            <modulo>Formación en centros de traballo </modulo>
+            <modulo>Programación de servizos e procesos </modulo>
+            <modulo>Programación multimedia e dispositivos móbiles </modulo>
+            <modulo>Proxecto de desenvolvemento de aplicacións multiplataforma </modulo>
+            <modulo>Sistemas de xestión empresarial </modulo>
+        </curso>
+    </ciclo>
+</ciclos>
