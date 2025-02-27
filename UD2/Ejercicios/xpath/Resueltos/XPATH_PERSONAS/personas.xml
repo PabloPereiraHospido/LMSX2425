@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<personas>
+	<persona ec="C">
+		<nombre>Manuel</nombre>
+		<apellidos>López Fernández</apellidos>
+		<dni>333453234P</dni>
+		<mail>manuel@gmail.com</mail>
+		<direccion>C. Reina #25 1ºD</direccion>
+		<poblacion>Ourense</poblacion>
+		<telefono>453567098</telefono>
+		<edad>60</edad>
+	</persona>
+	<persona ec="S">
+		<nombre>Fernando</nombre>
+		<apellidos>Gómez Rodríguez</apellidos>
+		<dni>32312398L</dni>
+		<mail>fernando@yahoo.com</mail>
+		<direccion>C. Orquídeas #12 3ºA</direccion>
+		<poblacion>A Coruña</poblacion>
+		<telefono>677342549</telefono>
+		<edad>17</edad>
+	</persona>
+	<persona ec="V">
+		<nombre>María</nombre>
+		<apellidos>Basanta Llas</apellidos>
+		<dni>33454367A</dni>
+		<mail>maríabl@gmail.com</mail>
+		<direccion>Avda. Madrid #102 9ºC</direccion>
+		<poblacion>Pontevedra</poblacion>
+		<telefono>767439321</telefono>
+		<edad>20</edad>
+	</persona>
+	<persona ec="V">
+		<nombre>Matusalen</nombre>
+		<apellidos>Mucha Mas</apellidos>
+		<dni>78761239M</dni>
+		<mail>matu@teleline.es</mail>
+		<direccion>Calle Adios #03 01ºX</direccion>
+		<poblacion>Ourense</poblacion>
+		<telefono>789374510</telefono>
+		<edad>95</edad>
+	</persona>
+	<persona ec="S">
+		<nombre>Jose María</nombre>
+		<apellidos>Balbás Rialto</apellidos>
+		<dni>24356784T</dni>
+		<mail>josemaríab@hotmail.com</mail>
+		<direccion>Avda. Zamora #23 4ºL</direccion>
+		<poblacion>Lugo</poblacion>
+		<telefono>456234987</telefono>
+		<edad>24</edad>
+	</persona>
+	<persona ec="C">
+		<nombre>Uxía</nombre>
+		<apellidos>Torres Altas</apellidos>
+		<dni>81234398U</dni>
+		<mail>uxiata@yahoo.com</mail>
+		<direccion>Rua Salamanca #1 2ºG</direccion>
+		<poblacion>A Coruña</poblacion>
+		<telefono>897234876</telefono>
+		<edad>35</edad>
+	</persona>
+	<persona ec="C">
+		<nombre>Felix</nombre>
+		<apellidos>Azpilicueta Basanta</apellidos>
+		<dni>87923134R</dni>
+		<mail>felizaa@teleline.es</mail>
+		<direccion>Calle Moderna #22 12ºM</direccion>
+		<poblacion>Pontevedra</poblacion>
+		<telefono>676203451</telefono>
+		<edad>53</edad>
+	</persona>
+	<persona ec="C">
+		<nombre>Ana</nombre>
+		<apellidos>Rios Mares</apellidos>
+		<dni>23949240L</dni>
+		<mail>anarm@gmail.com</mail>
+		<direccion>Avda Coruña #102 12ºX</direccion>
+		<poblacion>Ourense</poblacion>
+		<telefono>787283092</telefono>
+		<edad>65</edad>
+	</persona>
+	<persona ec="S">
+		<nombre>Antonio</nombre>
+		<apellidos>Zubizarreta Echo</apellidos>
+		<dni>98723129K</dni>
+		<mail>antoniz@gmail.es</mail>
+		<direccion>Calle Altos Hornos #22 3ºB</direccion>
+		<poblacion>A Coruña</poblacion>
+		<telefono>777234432</telefono>
+		<edad>57</edad>
+	</persona>
+	<persona ec="S">
+		<nombre>Feliciano</nombre>
+		<apellidos>Barela Hernandez</apellidos>
+		<dni>23123876L</dni>
+		<mail>felibare@gmail.com</mail>
+		<direccion>Calle Manila #54 1ºF</direccion>
+		<poblacion>Lugo</poblacion>
+		<telefono>345098283</telefono>
+		<edad>18</edad>
+	</persona>	
+	<persona ec="C">
+		<nombre>Angel</nombre>
+		<apellidos>Villamor Rios</apellidos>
+		<dni>23414276P</dni>
+		<mail>angelvimon@msn.com</mail>
+		<direccion>Rua Catedral #4 3ºA</direccion>
+		<poblacion>Lugo</poblacion>
+		<telefono>986243989</telefono>
+		<edad>25</edad>
+	</persona>
+	<persona ec="S">
+		<nombre>Junior</nombre>
+		<apellidos>Mas Joven</apellidos>
+		<dni>14315345A</dni>
+		<mail>junior@neo.com</mail>
+		<direccion>Calle Recien Nacida #1 1ºA</direccion>
+		<poblacion>Ourense</poblacion>
+		<telefono>142439345</telefono>
+		<edad>12</edad>
+	</persona>
+	<persona ec="C">
+		<nombre>Montse</nombre>
+		<apellidos>Vedra Lorem</apellidos>
+		<dni>32908739R</dni>
+		<mail>mon@yahoo.com</mail>
+		<direccion>Avda Zamora #23 7ºB</direccion>
+		<poblacion>Pontevedra</poblacion>
+		<telefono>938304982</telefono>
+		<edad>30</edad>
+	</persona>
+	<persona ec="S">
+		<nombre>Hugo</nombre>
+		<apellidos>Chore Libre</apellidos>
+		<dni>65709278E</dni>
+		<mail>hugocho@teleline.es</mail>
+		<direccion>Calle Gran Via #223 14ºG</direccion>
+		<poblacion>A Coruña</poblacion>
+		<telefono>928103253</telefono>
+		<edad>15</edad>
+	</persona>
+	<persona ec="S">
+		<nombre>Alejandra</nombre>
+		<apellidos>Basanta Lugilde</apellidos>
+		<dni>83420438T</dni>
+		<mail>aleba@cocacola.es</mail>
+		<direccion>Calle tres #5 1ºA</direccion>
+		<poblacion>Lugo</poblacion>
+		<telefono>676203254</telefono>
+		<edad>22</edad>
+	</persona>
+	<persona ec="S">
+		<nombre>Roberto</nombre>
+		<apellidos>Rios Tomas</apellidos>
+		<dni>43581234L</dni>
+		<mail>robercuto@osborne.es</mail>
+		<direccion>Plaza ventas #38 7ºB</direccion>
+		<poblacion>Pontevedra</poblacion>
+		<telefono>978293416</telefono>
+		<edad>34</edad>
+	</persona>
+</personas>

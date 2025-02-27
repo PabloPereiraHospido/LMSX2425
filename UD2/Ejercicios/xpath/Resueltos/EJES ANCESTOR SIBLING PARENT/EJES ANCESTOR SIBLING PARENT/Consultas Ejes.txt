@@ -1,0 +1,40 @@
+//hijo[nombre="Segundo hijo"]/preceding-sibling::hijo/nombre/text()
+
+Primer hijo
+
+//hijo[nombre="Segundo hijo"]/following-sibling::hijo/nombre/text()
+
+Tercer hijo
+
+//hijo[nombre="Segundo hijo"]/parent::padre/nombre/text()
+
+Yo soy tu padre
+
+//hijo[nombre="Segundo hijo"]/ancestor::abuelo/nombre/text()
+
+Yo soy tu abuelo
+
+OTRAS COSAS:
+
+De los hijos que tienen tlfno, obtener su nombre:
+
+//hijo[tlfno]/nombre/text()
+
+De los hijos que tienen tlfno, obtener el nombre del anterior hermano:
+
+//hijo[tlfno]/preceding-sibling::hijo/nombre/text()
+
+Sobre los comentarios: ************
+
+Obtener todos los comentarios del XML:
+
+//comment()
+
+Obtener el nombre del hijo que tenga algún comentario:
+
+//hijo[coment()]/nombre/text()
+
+
+
+
+
