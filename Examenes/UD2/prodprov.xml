@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventario>
+<!-- ****************** Productos ****************** -->
+    <productos>
+        <producto codigo="01">
+            <nombre>Teléfono Móvil Smart</nombre>
+            <precio>599.99</precio>
+            <stock>150</stock>
+            <proveedor_id>1</proveedor_id>
+        </producto>
+        <producto codigo="02">
+            <nombre>Ordenador Portátil DELL Inspiron 12</nombre>
+            <precio>999.99</precio>
+            <stock>80</stock>
+            <proveedor_id>2</proveedor_id>
+        </producto>
+        <producto codigo="03">
+            <nombre>Tablet Generic Kingston</nombre>
+            <precio>399.99</precio>
+            <stock>200</stock>
+            <proveedor_id>3</proveedor_id>
+        </producto>
+        <producto codigo="04">
+            <nombre>Smartphone Galaxy X9</nombre>
+            <precio>699.74</precio>
+            <stock>150</stock>
+            <proveedor_id>4</proveedor_id>
+        </producto>
+        <producto codigo="05">
+            <nombre>Laptop Acer Swift 3</nombre>
+            <precio>849.44</precio>
+            <stock>85</stock>
+            <proveedor_id>5</proveedor_id>
+        </producto>
+        <producto codigo="06">
+            <nombre>Auriculares Bose QuietComfort 35 II</nombre>
+            <precio>299.35</precio>
+            <stock>120</stock>
+            <proveedor_id>6</proveedor_id>
+        </producto>
+        <producto codigo="07">
+            <nombre>Smartwatch Apple Watch Series 7</nombre>
+            <precio>429.50</precio>
+            <stock>200</stock>
+            <proveedor_id>7</proveedor_id>
+        </producto>
+        <producto codigo="08">
+            <nombre>Tablet Samsung Galaxy Tab S7</nombre>
+            <precio>499.22</precio>
+            <stock>70</stock>
+            <proveedor_id>1</proveedor_id>
+        </producto>
+        <producto codigo="09">
+            <nombre>Cámara Digital Canon EOS 90D</nombre>
+            <precio>1299.15</precio>
+            <stock>45</stock>
+            <proveedor_id>2</proveedor_id>
+        </producto>
+        <producto codigo="10">
+            <nombre>Drone DJI Air 2S</nombre>
+            <precio>999.25</precio>
+            <stock>60</stock>
+            <proveedor_id>3</proveedor_id>
+        </producto>
+        <producto codigo="11">
+            <nombre>Disco Duro Externo Seagate 2TB</nombre>
+            <precio>79.49</precio>
+            <stock>300</stock>
+            <proveedor_id>4</proveedor_id>
+        </producto>
+        <producto codigo="12">
+            <nombre>Teclado Mecánico Razer Huntsman V2</nombre>
+            <precio>199.38</precio>
+            <stock>130</stock>
+            <proveedor_id>3</proveedor_id>
+        </producto>
+        <producto codigo="13">
+            <nombre>Monitor LG UltraWide 34WN80C-B</nombre>
+            <precio>449.75</precio>
+            <stock>40</stock>
+            <proveedor_id>2</proveedor_id>
+        </producto>
+        <producto codigo="14">
+            <nombre>Altavoz Inteligente Google Nest Audio</nombre>
+            <precio>99.52</precio>
+            <stock>250</stock>
+            <proveedor_id>7</proveedor_id>
+        </producto>
+    </productos>
+<!-- ****************** Proveedores ****************** -->
+    <proveedores>
+        <proveedor id="1">
+            <nombre>ElectroPro</nombre>
+            <pais>España</pais>
+            <contacto>Juan Gómez</contacto>
+            <telefono>912345678</telefono>
+        </proveedor>
+        <proveedor id="2">
+            <nombre>TechImport</nombre>
+            <pais>Estados Unidos</pais>
+            <contacto>Alice Smith</contacto>
+            <telefono>123456789</telefono>
+        </proveedor>
+        <proveedor id="3">
+            <nombre>Global Suppliers</nombre>
+            <pais>China</pais>
+            <contacto>Li Wei</contacto>
+            <telefono>987654321</telefono>
+        </proveedor>
+        <proveedor id="4">
+            <nombre>Orale Systems</nombre>
+            <pais>México</pais>
+            <contacto>Santiago Zapata</contacto>
+            <telefono>91436935</telefono>
+        </proveedor>
+        <proveedor id="5">
+            <nombre>Samba SL</nombre>
+            <pais>Brasil</pais>
+            <contacto>Ramón Luzardo</contacto>
+            <telefono>93192348</telefono>
+        </proveedor>
+        <proveedor id="6">
+            <nombre>Müller Systems</nombre>
+            <pais>Alemania</pais>
+            <contacto>Max Müller</contacto>
+            <telefono>+49 1701234567</telefono>
+        </proveedor>
+        <proveedor id="7">
+            <nombre>Dupont Techniqué</nombre>
+            <pais>Francia</pais>
+            <contacto>Élodie Dupont</contacto>
+            <telefono>+33 612345678</telefono>
+        </proveedor>
+    </proveedores>
+</inventario>
