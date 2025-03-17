@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abuelo>
+    <nombre>Yo soy tu abuelo</nombre>
+    <padre>
+	<nombre>Yo soy tu padre</nombre>
+        <hijo>
+            <nombre>Primer hijo</nombre>
+        </hijo>
+        <hijo>
+            <nombre>Segundo hijo</nombre>
+	    <tlfno>982 218053</tlfno>
+        </hijo>
+        <hijo>	<!-- Como yo -->
+            <nombre>Tercer hijo</nombre>
+        </hijo>
+    </padre>
+</abuelo>

@@ -1,0 +1,27 @@
+(:1 :)
+(:concat("los productos que valen mas que la media son: ", //producto[precio > avg(//producto/precio)]/nombre/text()):)
+
+(:2 :)
+(:concat("El stock de TechImport es: ", sum(//producto[proveedor_id = //proveedor[nombre = "TechImport"]/@id]/stock)):)
+
+(:3 :)
+(:concat("La media de precios de Santiago Zapata: ",avg(//producto[proveedor_id = //proveedor[contacto = "Santiago Zapata"]/@id]/precio)):)
+
+(:4 :)
+(:concat("El proveedor del producto mas caro es: ", //proveedor[@id =  //producto[precio = max(//producto/precio/text())]/proveedor_id]/nombre/text()):)
+
+(:5 :)
+(:concat("El procentaje de global suppliers es: ",sum(//producto/precio) div sum(//producto[proveedor_id = //proveedor[nombre = "Global Suppliers"]/@id]/precio)):)
+ 
+(:6 :)
+(:concat("El Teléfono del proveedor de Tablet Generic Kingston es: ", //proveedor[@id = //producto[nombre = "Tablet Generic Kingston"]/proveedor_id]/telefono/text()):)
+
+
+(:7 !contains(//producto/nombre, "Smart"):)
+
+(:8 :)
+(:concat("Tenémos del  mas caro: ", //producto[precio = max(//producto/precio)]/stock/text()) :)
+
+(:9 !//producto[contains(//nombre, "Apple")] :)
+
+(:10 !count(//producto[//stock > 0 and //producto/proveedor_id = 2]):)

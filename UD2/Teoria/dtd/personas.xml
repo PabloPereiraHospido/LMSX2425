@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas [
+    <!ELEMENT personas (persona)+>
+    <!ELEMENT persona (nombre, (perro | gato)+)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT perro (#PCDATA)>
+    <!ELEMENT gato (#PCDATA)>
+    <!-- EL orden debe coincidir -->
+]>
+<personas>
+    <persona>
+        <nombre>Juan Perez</nombre>
+        <perro>Bobi</perro>
+    </persona>
+    <persona>
+        <nombre>Juan Perez</nombre>
+        <perro>Bobi</perro>
+        <gato>Mishifus</gato>
+    </persona>
+    <persona>
+        <nombre>Juan Perez</nombre>
+        <gato>Mishifus</gato>
+    </persona>
+</personas>

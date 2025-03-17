@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Datos del ies Ies Muralla Romana -->
+<ies>
+	<nombre>Ies Muralla Romana</nombre>
+	<provincia>Lugo</provincia>
+	<calle>Angelo Colocci</calle>
+	<cp>27003</cp>
+	<telefono>982 82 80 81</telefono>
+	<ciclos>
+		<ciclo id="SIMIRE">
+			<nombre>Sistemas Microinformaticos e redes</nombre>
+			<grado>Medio</grado>
+			<aula cod="202" />
+			<numalumnos>32</numalumnos>
+		</ciclo>
+		<ciclo id="DAW">
+			<nombre>Desenvolvemento Aplicacions Web</nombre>
+			<grado>Superior</grado>
+			<aula cod="209" />
+			<numalumnos>14</numalumnos>
+		</ciclo>
+		<ciclo id="DAM">
+			<nombre>Desenvolvemento Aplicacions Multiplataforma</nombre>
+			<grado>Superior</grado>
+			<aula cod="103" />
+			<numalumnos>22</numalumnos>
+		</ciclo>
+		<ciclo id="ASIR">
+			<nombre>Administracion Sistemas Informaticos en rede</nombre>
+			<grado>Superior</grado>
+			<aula cod="206" />
+			<numalumnos>10</numalumnos>
+		</ciclo>
+	</ciclos>
+</ies>

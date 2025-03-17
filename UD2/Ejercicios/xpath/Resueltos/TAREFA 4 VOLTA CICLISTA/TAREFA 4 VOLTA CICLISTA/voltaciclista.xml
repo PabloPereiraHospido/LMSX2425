@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volta>
+	<carreira>Volta ciclista a España</carreira>
+	
+    <etapas>
+        <etapa data="2014/09/11" n="e18">
+            <orixe>A Estrada</orixe>
+            <destino>Monte Castrove. Meis</destino>
+            <km>157</km>
+            <portos>
+                <porto cat="2">2</porto>
+            </portos>
+            <gañador>d21</gañador>
+            <clasificacion>
+                <maillot cor="vermello">d201</maillot>
+                <maillot cor="lunares">d51</maillot>
+                <maillot cor="verde">d115</maillot>
+            </clasificacion>
+        </etapa>
+        <etapa data="2014/09/12" n="e19">
+            <orixe>Salvaterra do Miño</orixe>
+            <destino>Cangas do Morrazo</destino>
+            <km>185.5</km>
+            <gañador>d146</gañador>
+            <clasificacion>
+                <maillot cor="vermello">d201</maillot>
+                <maillot cor="lunares">d51</maillot>
+                <maillot cor="verde">d115</maillot>
+            </clasificacion>
+        </etapa>
+        <etapa data="2014/09/13" n="e20">
+            <orixe>Santo Estevo de Ribas de Sil</orixe>
+            <destino>Puerto de Ancares</destino>
+            <km>185.7</km>
+            <portos>
+                <porto cat="1">1</porto>
+                <porto cat="2">1</porto>
+                <porto cat="3">3</porto>
+                <porto cat="E">1</porto>
+            </portos>
+            <gañador>d201</gañador>
+            <clasificacion>
+                <maillot cor="vermello">d201</maillot>
+                <maillot cor="lunares">d51</maillot>
+                <maillot cor="verde">d115</maillot>
+            </clasificacion>
+        </etapa>
+        <etapa data="2014/09/14" n="e21" tipo="CRI">
+            <orixe>Santiago de Compostela</orixe>
+            <destino>Santiago de Compostela</destino>
+            <km>9.7</km>
+            <gañador>d157</gañador>
+            <clasificacion>
+                <maillot cor="vermello">d201</maillot>
+                <maillot cor="lunares">d51</maillot>
+                <maillot cor="verde">d115</maillot>
+            </clasificacion>
+        </etapa>
+    </etapas>
+   
+    <equipos>
+        <equipo id="mov">
+            <nome>Movistar Team</nome>
+            <pais>España</pais>
+            <ciclista dorsal="d151" pais="esp">Alejandro Valverde</ciclista>
+            <ciclista dorsal="d157" pais="ita">Adriano Malori</ciclista>
+        </equipo>
+        <equipo id="tcs">
+            <nome>Tinkoff-Saxo</nome>
+            <pais>Rusia</pais>
+            <ciclista dorsal="d201" pais="esp">Alberto Contador</ciclista>
+            <ciclista dorsal="d202" pais="den">Michael Valgren Andersen </ciclista>
+        </equipo>
+        <equipo id="cjr">
+            <pais>España</pais>
+            <nome>Caja Rural</nome>
+            <ciclista dorsal="d51" pais="esp">Luis León Sánchez</ciclista>
+            <ciclista dorsal="d52" pais="esp">Francisco Javier Aramendia</ciclista>
+        </equipo>
+        <equipo id="gia">
+            <pais>Países Baixos</pais>
+            <nome>Team Giant Shimano</nome>
+            <ciclista dorsal="d115" pais="ger">John Degenkolb</ciclista>
+        </equipo>
+         <equipo id="ltb">
+            <pais>Bélxica</pais>
+            <nome>Lotto Belisol</nome>
+            <ciclista dorsal="d141" pais="bel">Jurgen Van Den Broeck</ciclista>
+            <ciclista dorsal="d146" pais="aus">Adam Hansen</ciclista>
+         </equipo>
+         <equipo id="ast">
+            <pais>Kazajistán</pais>
+            <nome>Astana Pro Team</nome>
+            <ciclista dorsal="d21" pais="ita">Fabio Aru</ciclista>
+            <ciclista dorsal="d22" pais="kaz">Daniil Fominykh</ciclista>
+         </equipo>
+    </equipos> 
+	
+</volta>
