@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<clinica
+    xmlns="https://www.w3schools.com"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.w3schools.com/xml ./Clinica.xsd"
+>
+    <mascotas>
+        <mascota cod="01">
+            <especie>Perro</especie>
+            <raza>Golden Retriever</raza>
+            <edad>5</edad>
+        </mascota>
+        <mascota cod="02">
+            <especie>Gato</especie>
+            <raza>Siames</raza>
+            <edad>3</edad>
+        </mascota>
+        <mascota cod="03">
+            <especie>Conejo</especie>
+            <raza>Holland Lops</raza>
+            <edad>2</edad>
+        </mascota>
+    </mascotas>
+</clinica>

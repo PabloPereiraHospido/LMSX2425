@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="https://www.w3schools.com"
+xmlns="https://www.w3schools.com"
+elementFormDefault="qualified">
+
+    <xs:element name="clinica">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="mascotas">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="mascota" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element
+                                            name="especie"
+                                            type="xs:string" />
+                                        <xs:element
+                                            name="raza"
+                                            type="xs:string" />
+                                        <xs:element
+                                            name="edad"
+                                            type="xs:integer" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
